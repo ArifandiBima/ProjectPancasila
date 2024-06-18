@@ -1,0 +1,15 @@
+partikel;fungsi;
+は;to be;
+も;juga;
+の;kepemilikan;
+を;objek;
+が;subjek;
+に;kepada;
+へ;menuju;
+で;dengan (menggunakan);
+と;dengan (bersama);
+や;enumerasi;
+から;dari;
+まで;sampai;
+までに;sebelum;
+より;ketimbang;

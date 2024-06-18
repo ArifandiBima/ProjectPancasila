@@ -1,0 +1,6 @@
+question;option1;option2;option3;option4;answer;
+Apa rumus untukpersamaan garis lurus?;y = m(c - x);y = mx + c;x = my + c;y = mx - c;2;
+Apa rumus untuk mencari gradien?;(y2- y1)/(x2-x1);(x2- x1)/(y2-y1);(y1- y2)/(x2-x1);(y1- x1)/(y2-x2);1;
+Rumus pendekatan kepada persamaan garis lurus adalah;(y-y1) = m (x - x1);(y-y1) = c (x - x1);(y1 - y) = m (x - c);(y+ y1) = m (x + x1);1;
+di berikan 2 titik ( 1,2 ) dan ( 5 , 10)apa gradien nya;-0,5;0,5;1;2;4;
+di berikan 2 titik (1, 2) dan (5, 10) apa persamaan garis lurus nya;y = 2x;y = x  + 2;y = 2x + 2;y = 2x + 1;1;

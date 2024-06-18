@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Baris dan Deret</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../../Home/home.html">KOTAKBELAJAR</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../../../Home/home.html"
+                >Home</a
+              >
+              <a class="nav-link" href="../../../Kuis/kuis.html">Kuis</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="header-font">Baris dan Deret</h1>
+      <div class="main">
+        <div class="sub-content">
+          <h3 class="header-font">Sub materi</h3>
+          <ul class="content-font">
+            <a href="#pendahuluan"><li>Pendahuluan</li></a>
+            <a href="#baris-aritmatika"><li>Baris Aritmatika</li></a>
+            <a href="#deret-aritmatika"><li>Deret Aritmatika</li></a>
+            <a href="#baris-geometri"><li>Baris Geometri</li></a>
+            <a href="#deret-geometri"><li>Deret Geometri</li></a>
+          </ul>
+        </div>
+        <div class="main-content">
+          <div class="content-container" id="pendahuluan">
+            <div class="content">
+              <h3 class="header-font">Pendahuluan</h3>
+              <p class="content-font">
+                Mungkin kalian pernah melihat sebuah barisan angka angka dan
+                merasa bahwa mereka memiliki pola tetapi tidak bias menentukan
+                apa pola tersebut.
+              </p>
+              <p class="content-font">
+                Nah di sini, kita akan mempelajari tipe-tipe pola yang ada dan
+                bagaimana cara mencari mereka!
+              </p>
+              <p class="content-font">
+                Misal : <br />
+                a. -1, 6, 13, 20, 27 <br />
+                b. 324, 108, 36, 12
+              </p>
+              <p class="content-font">
+                Ketahui, bahwa ada 2 tipe baris deret, Baris deret aritmetika,
+                seperti contoh A dan baris deret geometri, seperti contoh B.
+              </p>
+            </div>
+          </div>
+
+          <div class="content-container" id="baris-aritmatika">
+            <div class="content">
+              <h3 class="header-font">Baris Aritmatika</h3>
+              <p class="content-font">
+                Baris deret aritmetika adalah sekumpulan angka yang memiliki
+                selisih ke berikutnya yang tidak berubah. Mari kita kembali ke
+                contoh A , dimana : <br />
+                -1, 6, 13, 20, 27
+              </p>
+              <p class="content-font">
+                Jika kita mencoba mencari selisih satu per 1, maka: <br />
+                • -1 – 6 = 7 <br />
+                • 13 – 6 = 7 <br />
+                • 20 – 13 = 7 <br />
+                • 27 – 20 = 7
+              </p>
+              <p class="content-font">
+                Selisih dari satu angka ke angka sebelahnya akan di sebut
+                sebagai b atau beda. Sekarang setelah kita mengetahui selisih
+                dari 1 nilai ke nilai berikutnya, bagaimana jika kita ingin
+                mencari suku ke 100? <br />
+                Menghitungnya satu per satu akan membutuhkan waktu yang sangat
+                banyak dan kemungkinan salah untuk terjadi sangat besar. Maka
+                dari itu, kita akan mengunakan sebuah rumus :
+              </p>
+              <img
+                src="Pictures/rumus Un aritmatika.png"
+                style="margin-bottom: 25px"
+              />
+              <p class="content-font">
+                Un = Nilai dari suku ke-n (akan lebih jelas setelah
+                didemonstrasikan)<br />
+                a = Nilai dari suku pertama <br />
+                n = suku ke berapa yang sedang di cari <br />
+                b = perbedaan dari satu suku ke sebelahnya <br /><br />
+
+                Sekarang mari kita mengimplementasikan rumus yang kita punya
+                kepada contoh A. Anggaplah kita sedang mencari suku ke-10 dari
+                baris deret contoh A <br /><br />
+                Maka : <br />
+                a = -1 <br />
+                n = 10 <br />
+                b = 7 <br />
+                Un = -1 + (10 - 1) x 7 <br />
+                = -1 + 9(7)<br />
+                = -1 + 63 <br />
+                = 62 <br />
+                Jika tidak percaya , coba saja hitung manual! <br />
+              </p>
+            </div>
+          </div>
+
+          <div class="content-container" id="deret-aritmatika">
+            <div class="content">
+              <h3 class="header-font">Deret Aritmatika</h3>
+              <p class="content-font">
+                Nah, setelah kita bisa mencari suku ke–n, bagaimana jika kita
+                ingin mencari total dari semua suku? <br />
+                Misal, cari total dari 100 suku pertama pada baris deret contoh
+                A! <br />
+                Lagi lagi, menghitung nya dengan manual memiliki kans untuk
+                membuat kesalahan sangat besar. Oleh karena itu, kita akan
+                mengunakan rumus :
+              </p>
+              <img src="Pictures/rumus Sn.png" style="margin-bottom: 25px" />
+              <p class="content-font">
+                Sama seperti sebelumnya, definsi per simbolnya tetap sama.
+                Walaupun ada 2 rumus, sebenarnya mereka sama saja, mari kita
+                lihat buktinya karena n / 2 ada di ke 2 rumus, mari kita abaikan
+                dan hanya bahas bagian (a + Un)
+              </p>
+              <p class="content-font">
+                Seperti yang kita ketahui sebelumnya <br />
+                Un = a + (n - 1) x b maka, <br />
+                (a + a +(n - 1)x b) = 2 + (n-1) x b. <br />
+                Tinggal kita masukan saja nominalnya dan kita akan mendapat kan
+                totalnya <br /><br />
+                Misal, kembali lagi kita ambil contoh A, dimana baris deretnya
+                adalah <br />
+                -1, 6, 13, 20, 27 <br />
+                Misal kita ingin mencari total dari 4 suku pertama ,
+                <br /><br />
+                Sn = (4 / 2) (2 x (-1) + (4 - 1) x 7) <br />
+                = 2 (-2 + 3(7)) = 2(-2 + 21) <br />
+                = 2(19) = 48. <br /><br />
+                Jika tidak percaya, coba kalkulasi secara manual!
+              </p>
+            </div>
+          </div>
+
+          <div class="content-container" id="baris-geometri">
+            <div class="content">
+              <h3 class="header-font">Baris Geometri</h3>
+              <p class="content-font">
+                Sekarang, kita akan membahas Baris deret geometri, melihat dari
+                contoh B, Jika kita mencoba untuk mencari selisih dengan
+                melakukan substraksi dari satu suku ke sebelahnya dan jaraknya
+                selalu berubah, sudah hampir pasti bahwa itu adalah baris deret
+                geometri. Cobalah membagi dari satu suku ke suku berikutnya,
+                tetapi , jika sekali (Un + 1) / (Un), jangan menganti urutannya
+                menjadi (Un) / (Un + 1) karena itu akan membuat inkonsisten dan
+                tidak akan mendapat jawaban yang benar. <br />
+                <br />
+                Lagi lagi, kita tentu ingin mencari tahu berapa nilai suku ke-n
+                disini, karena sifat dari baris deret nya berbeda, kita akan
+                mengunakan rumus yang berbeda
+              </p>
+              <img src="Pictures/rumus Un geometri.png" /> <br /><br />
+              <img
+                src="Pictures/rumus r geometri.png"
+                style="margin-bottom: 25px"
+              />
+
+              <p class="content-font">
+                Jika kita melihat ke contoh B, dan ingin mencari suku ke 5, Maka
+                <br />
+                a = 324 <br />
+                r = 108 / 324 = 1 / 3 <br />
+                n = 5 <br />
+                <br />
+                Un = 324(1 / 3)<span>&#8309;</span> - 1<br />
+                = 324 (1/81) <br />
+                = 4
+              </p>
+            </div>
+          </div>
+
+          <div class="content-container" id="deret-geometri">
+            <div class="content">
+              <h3 class="header-font">Deret Geometri</h3>
+              <p class="content-font">
+                Dan untuk mencari total dari n-suku ke awal, kita akan
+                mengunakan rumus yang sedikit berbeda dengan deret
+                aritmetika karena sifatnya yang berbeda
+              </p>
+              <img src="Pictures/rumus Sn geometri.png">
+            </div>
+          </div>
+          <a href="../../../Kuis/Matematika/BarisDeret/KuisTes.html" class="link-kuis content-font"
+            >Klik untuk mengerjakan kuis</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-row">
+          <div class="footer-col">
+            <h3 class="header-font">KOTAKBELAJAR</h3>
+          </div>
+          <div class="footer-col">
+            <h3 class="header-font">Link</h3>
+            <ul class="content-font">
+              <a href=""><li>Review</li></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

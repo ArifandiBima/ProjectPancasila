@@ -1,0 +1,12 @@
+question;option1;option2;option3;option4;answer;
+Kenapa BPUPK penting dalam pembentukan Indonesia?;Untuk membuat Indonesia merdeka dari Jepang;Membuat perjanjian dengan Sekutu untuk mengalahkan Jepang;Untuk mempersiapkan kemerdekaan dari Sekutu;Mempersiapkan hal-hal yang dibutuhkan sebelum kemerdekaan;4
+Kapan BPUPK didirikan?;1 Maret 1945;1 Juni 1945;29 Mei 1945;1 Agustus 1945;1
+Kapan BPUPK memulai sidangnya yang pertama?;1 Maret 1945;1 Juni 1945;29 Mei 1945;1 Agustus 1945;3
+Kapan BPUPK mengakhiri sidangnya yang pertama?;1 Maret 1945;1 Juni 1945;29 Mei 1945;1 Agustus 1945;2
+Apa singkatan dari Jasmerah yang dikatakan Ir.Soekarno?;Jangan sekali-kali melupakan Sekutu;Jangan sekali-kali membenci sejarah;Jangan seperti melupakan sengsara;Jangan sekali-kali melupakan sejarah;4
+Kenapa Jangan sekali-kali melupakan sejarah dikatakan Soekarno?;Karena melupakan sejarah sama saja dengan meninggalkan identitas bangsa itu sendiri.;Karena melupakan sejarah sama saja dengan meninggalkan penderitaan yang telah dialami sendiri.;Karena melupakan sejarah sama saja dengan menjadi sama layaknya penjajah itu sendiri;Karena melupakan sejarah sama saja dengan memecah belah bangsa itu sendiri;1
+Siapa ketua dari BPUPK?;K.R.T. Radjiman Wedyodiningrat;Ichibangase Yosio;Ir. Soekarno;Muhhamad Hatta;1
+Yang bukan propaganda Jepang untuk menarik simpati bangsa Indonesia adalah semboyan ...;Jepang Cahaya Asia; Jepang Pelindung Asia;Jepang Pemimpin Asia;Jepang Penerang Asia;4
+Kondisi apa yang digambarkan dari lepas dari mulut harimau, masuk ke mulut buaya?;Bangsa Indonesia yang dijajah menggunakan taktik Divide Et Impera;Indonesia yang dijajah Belanda lalu dijajah Jepang;Setelah Perang Dunia I, lalu munculnya Perang Dunia II;Perang saudara yang terjadi karena Jepang lalu Belanda;2
+Kejadian apa yang terjadi pada Jepang yang membuat Indonesia mendapatkan Peluang untuk merdeka?;Jepang Kalah di Perang Dunia I;Jepang Kalah di Perang Dunia II;Sekutu Kalah di Perang Dunia I;Sekutu Kalah di Perang Dunia II;2
+Kenapa Jepang berjanji akan memberikan kemerdekaan pada Indonesia?;Tipu muslihat agar bangsa Indonesia bersimpati;Agar Indonesia terpecah belah;Supaya Indonesia melaksanakan perintah Jepang;Untuk membuat Sekutu menyerah, karena Indonesia sudah merdeka;1

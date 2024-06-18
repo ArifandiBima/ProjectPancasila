@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+nav a {
+    font-weight: 700;
+}
+
+.header-font {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+.content-font {
+    font-family: "Lato", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.card {
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #cacaca;
+    transition: 0.6s;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.content-container {
+    margin: 50px;
+}
+
+.footer {
+    background-color: #1F1717;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    padding: 15px;
+    width: 50%;
+}
+
+.footer-col h3 {
+    color: #FCF5ED;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.footer li {
+    color: #CE5A67;
+    font-style: normal;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.header-container {
+    display: flex;
+    height: 60vh;
+}
+
+.headline-container {
+    background-color: #FCF5ED;
+    width: 50%;
+}
+
+.headline {
+    position: relative;
+    padding: 25px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.headline h1 {
+    color: #1F1717;
+    font-style: normal;
+}
+
+.headline h4 {
+    color: #454040;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.header-image {
+    background-image: url("../../Pictures/pancasila-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
