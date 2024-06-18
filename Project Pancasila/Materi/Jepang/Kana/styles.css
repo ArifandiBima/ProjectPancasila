@@ -16,6 +16,13 @@ a:link, a:visited, a:active {
 main {
     margin: 50px;
 }
+body{
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
 
 .header-font {
     font-family: "DM Sans", sans-serif;

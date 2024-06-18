@@ -12,6 +12,13 @@ a:link, a:visited, a:active {
     text-decoration: none;
     color: #464646;
 }
+body{
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
 
 main {
     margin: 50px;

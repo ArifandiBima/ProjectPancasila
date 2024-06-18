@@ -25,6 +25,13 @@ nav a {
 #option {
     display: flex;
 }
+body{
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
 
 button {
     border: none;
