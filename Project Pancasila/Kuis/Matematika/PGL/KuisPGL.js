@@ -22,7 +22,7 @@ const csv2json = (str, delimiter = ';') => {
   });
 };
 
-const csv = './SoalPGL.txt';
+const csv = './SoalPgl.txt';
 
 const questionElement = document.getElementById("question");
 const optionsElements = document.getElementById("options");
